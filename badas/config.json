@@ -1,0 +1,22 @@
+{
+  "model_type": "vjepa-collision-prediction",
+  "base_model": "facebook/vjepa2-vitl-fpc16-256-ssv2",
+  "performance": {
+    "DAD": {
+      "AP": 60.9,
+      "AUC": 0.96
+    },
+    "DADA": {
+      "AP": 92.9,
+      "AUC": 0.88
+    },
+    "DoTA": {
+      "AP": 95.9,
+      "AUC": 0.79
+    },
+    "Nexar": {
+      "AP": 83.2,
+      "AUC": 0.85
+    }
+  }
+}

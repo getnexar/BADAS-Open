@@ -1,0 +1,17 @@
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+include requirements.txt
+include pyproject.toml
+recursive-include badas *.py *.json
+recursive-include assets *.png *.jpg *.txt
+recursive-include docs *.md *.rst
+recursive-include examples *.py *.md
+recursive-include tests *.py
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.pth
+global-exclude *.pt
+global-exclude *.safetensors
+global-exclude .git*
+global-exclude .DS_Store
