@@ -9,7 +9,7 @@
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](https://huggingface.co/nexar-ai/badas-open)
 [![Documentation](https://img.shields.io/badge/docs-passing-brightgreen)](https://nexar-ai.github.io/badas-open)
 
-<img src="assets/example.png" alt="BADAS Collision Prediction Example" width="750">
+<img src="assets/BADAS_Demo.gif" alt="BADAS Collision Prediction Example" width="750">
 
 **[Demo](https://play.nexar-ai.com) | [Paper](https://arxiv.org/abs/2025.xxxxx) | [Dataset](https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction) | [Models](https://huggingface.co/nexar-ai/badas-open)**
 
