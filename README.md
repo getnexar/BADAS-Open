@@ -11,7 +11,7 @@
 
 <img src="assets/example.png" alt="BADAS Collision Prediction Example" width="750">
 
-**[Demo](https://nexar.ai/badas-demo) | [Paper](https://arxiv.org/abs/2025.xxxxx) | [Dataset](https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction) | [Models](https://huggingface.co/nexar-ai/badas-open) | [Documentation](https://nexar-ai.github.io/badas-open)**
+**[Demo](https://play.nexar-ai.com) | [Paper](https://arxiv.org/abs/2025.xxxxx) | [Dataset](https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction) | [Models](https://huggingface.co/nexar-ai/badas-open)**
 
 </div>
 

@@ -10,13 +10,26 @@ This script demonstrates how to:
 
 import argparse
 import sys
+import os
 from pathlib import Path
 
+# Try to import BADAS - both from installed package and local development
 try:
     from badas import BADASModel
 except ImportError:
-    print("Please install badas package: pip install badas")
-    sys.exit(1)
+    # Try to import from parent directory (for development)
+    parent_dir = Path(__file__).resolve().parent.parent
+    sys.path.insert(0, str(parent_dir))
+    try:
+        from badas import BADASModel
+        print("Note: Using BADAS from local directory (development mode)")
+    except ImportError:
+        print("Error: Could not import BADAS.")
+        print("Please either:")
+        print("  1. Install it: pip install badas")
+        print("  2. Run from repository: pip install -e .")
+        print("  3. Ensure the script is in the examples/ directory")
+        sys.exit(1)
 
 
 def main():
