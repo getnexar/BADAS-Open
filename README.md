@@ -217,10 +217,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## 🔗 Links
 
-- 🌐 **Website**: [nexar.ai/badas](https://nexar.ai/badas)
-- 📧 **Contact**: research@nexar.com
-- 💬 **Discord**: [Join our community](https://discord.gg/nexar-ai)
-- 🐦 **Twitter**: [@NexarAI](https://twitter.com/NexarAI)
+- 🌐 **Website**: [nexar.ai/badas](https://nexar-data.webflow.io/badas)
 
 ## ⚠️ Disclaimer
 
