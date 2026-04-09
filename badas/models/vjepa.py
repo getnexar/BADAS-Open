@@ -1,24 +1,19 @@
 #!/usr/bin/env python3
 """
-V-JEPA 2 Model Implementation using project's actual loading logic
+V-JEPA 2 Model Implementation - self-contained inference, no private training deps.
 """
-import sys
 import os
-
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.dirname(current_dir)
-sys.path.insert(0, parent_dir)
 
 import torch
 import numpy as np
 from typing import List, Dict, Any, Optional, Callable
 
-from core.base import BaseModel
-from utils.video import (
+from ..core.base import BaseModel
+from ..utils.video import (
     get_device, load_vjepa_model, preprocess_video_frames,
     get_processor_for_model, get_transform_for_model, apply_temperature_scaling
 )
-from utils.sliding_window import SlidingWindowPredictor
+from ..utils.sliding_window import SlidingWindowPredictor
 
 
 class VJEPAModel(BaseModel):

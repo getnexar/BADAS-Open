@@ -7,7 +7,7 @@ Designed for models that look at N frames and predict what happens AFTER those f
 import torch
 import numpy as np
 from typing import List, Tuple, Optional, Union, Dict, Any
-from core.base import BaseModel
+from ..core.base import BaseModel
 
 
 class SlidingWindowPredictor(BaseModel):
