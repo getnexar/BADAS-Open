@@ -9,10 +9,6 @@ __version__ = "1.0.0"
 __author__ = "Nexar AI Research"
 __license__ = "Apache 2.0"
 
-from .badas_loader import load_badas_model, BADASModel, preprocess_video
+from .badas_loader import BADASModel, load_badas_model, preprocess_video
 
-__all__ = [
-    "load_badas_model",
-    "BADASModel", 
-    "preprocess_video"
-]
+__all__ = ["load_badas_model", "BADASModel", "preprocess_video"]
